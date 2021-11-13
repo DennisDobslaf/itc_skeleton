@@ -2,6 +2,8 @@
 const TPL_DIR = __DIR__ . '/../templates';
 const INC_DIR = __DIR__ . '/../includes';
 
+require_once INC_DIR . '/functions.php';
+
 $PAGE = [
     'baseHref' => 'http://localhost/itc_skeleton/public',
     'siteTitle' => 'ITC Skeleton'
