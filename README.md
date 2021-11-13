@@ -1,4 +1,5 @@
 # ITC Skeleton
 
-Autor: Dennis Dobslaf
-Erstellt: Nov. 2021
+Autoren: Dennis Dobslaf, Max Mustermann
+
+Erstellt: 13. Nov. 2021
