@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    ServerName itc_skeleton.localhost
+    DocumentRoot "C:\xampp\htdocs\itc_skeleton\public"
+    DirectoryIndex index.php
+    <Directory "C:\xampp\htdocs\itc_skeleton\public">
+        AllowOverride All
+        Allow from All
+    </Directory>
+</VirtualHost>

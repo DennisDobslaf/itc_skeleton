@@ -1,7 +1,9 @@
 <?php
-include __DIR__ . '/../templates/html_header.phtml';
-include __DIR__ . '/../templates/page_navigation.phtml';
-include __DIR__ . '/../templates/page_header.phtml';
+include __DIR__ . '/../config/application.config.php';
+
+include TPL_DIR . '/html_header.phtml';
+include TPL_DIR . '/page_navigation.phtml';
+include TPL_DIR . '/page_header.phtml';
 ?>
         <!-- Main Content-->
         <main class="mb-4">
@@ -73,6 +75,6 @@ include __DIR__ . '/../templates/page_header.phtml';
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
 <?php
-include __DIR__ . '/../templates/page_footer.phtml';
-include __DIR__ . '/../templates/html_footer.phtml';
+include TPL_DIR . '/page_footer.phtml';
+include TPL_DIR . '/html_footer.phtml';
 ?>
